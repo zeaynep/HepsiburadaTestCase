@@ -8,7 +8,7 @@ public class OpenWebsite {
     private CommonMethods commonMethods;
 
     public OpenWebsite(String baseUrl){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\husey\\Desktop\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\zeynep\\Desktop\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, SECONDS);
         driver.manage().timeouts().pageLoadTimeout(200, SECONDS);
